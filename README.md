@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projet crée à partir de l'image suivante : [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Script disponible
 
 In the project directory, you can run:
 
@@ -43,26 +43,73 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# Prérequis
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Language
 
-### Analyzing the Bundle Size
+* NPM : https://www.npmjs.com/
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Extensions
 
-### Making a Progressive Web App
+* Debug :
+  * https://github.com/Microsoft/vscode-chrome-debug
+* Linter :
+  * ESLint : https://github.com/Microsoft/vscode-eslint
+  * Prettier : https://github.com/prettier/prettier-vscode
+* Language :
+  * React : https://github.com/dsznajder/vscode-es7-javascript-react-snippets
+* Utilitaires :
+  * Markdown : https://github.com/yzhang-gh/vscode-markdown
+  * TODO Highlight : https://github.com/wayou/vscode-todo-highlight
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+# Installation
 
-### Advanced Configuration
+## Initialisation du boilerplate de react en version typescript
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+```yarn
+yarn create react-app boilerplate-react --typescript
+```
 
-### Deployment
+## Initialisation du fichier launcher VSCode
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Appuyer sur **F5** pour générer la première fois le répertoire de configuration pour l'éditeur. Il propose plusieurs options de lancement mais pour notre projet nous partirons sur Chrome.
+Une fois cette option choisi il suffit d'appuyer à nouveau sur **F5** pour que le navigateur ce lance en mode debug avec Chrome. Pour que cela fonctionne parfaitement il faut égallement s'assurer d'avoir le plugin de Debug pour chrome au sein de l'IDE.
 
-### `npm run build` fails to minify
+## Initialisation de la structure
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Initialisation de la strucure du projet
+
+```folder
+ - .vscode
+ - node_modules
+ - public
+ - config
+ - src
+    - components
+    - config
+    - containers
+    - docs
+    App.css
+    App.test.tsx
+    App.tsx
+    index.css
+    index.tsx
+    logo.svg
+    react-app-env.d.ts
+    serviceWorker.ts
+  .gitignore
+  package.json
+  README.md
+  TODO.md
+  tsconfig.json
+  yarn.lock
+```
+
+
+
+
+
+
+
+
+

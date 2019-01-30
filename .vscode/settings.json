@@ -1,0 +1,23 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "workbench.colorTheme": "Monokai",
+
+    // Configuration TODO Highlight :
+    // https://github.com/wayou/vscode-todo-highlight
+    "todohighlight.keywords": [
+        {
+            "text": "TODO",
+            "color": "#fff",
+            "backgroundColor": "#ffbd2a",
+            "overviewRulerColor": "rgba(255,189,42,0.8)"
+        },
+        {
+            "text": "FIXME",
+            "color": "#fff",
+            "backgroundColor": "#F45050",
+            "overviewRulerColor": "rgba(240,98,146,0.8)"
+        }
+    ]
+
+}
