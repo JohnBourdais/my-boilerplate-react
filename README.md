@@ -70,6 +70,13 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 yarn create react-app boilerplate-react --typescript
 ```
 
+Démarrage
+
+```yarn
+yarn
+yarn start
+```
+
 ## Initialisation du fichier launcher VSCode
 
 Appuyer sur **F5** pour générer la première fois le répertoire de configuration pour l'éditeur. Il propose plusieurs options de lancement mais pour notre projet nous partirons sur Chrome.
@@ -86,15 +93,17 @@ Initialisation de la strucure du projet
  - config
  - src
     - components
+      - App
+        App.css
+        App.test.tsx
+        App.tsx
     - config
     - containers
     - docs
-    App.css
-    App.test.tsx
-    App.tsx
+    - ressources
+      logo.svg
     index.css
     index.tsx
-    logo.svg
     react-app-env.d.ts
     serviceWorker.ts
   .gitignore
@@ -104,12 +113,16 @@ Initialisation de la strucure du projet
   tsconfig.json
   yarn.lock
 ```
+## React-router
 
+Installation des dépandences pour mettre en place la notion de route.
 
-
-
-
-
+```yarn
+yarn add @types/react
+yarn add react-router-dom
+yarn add @types/react-router
+yarn add @types/react-router-dom
+```
 
 
 
