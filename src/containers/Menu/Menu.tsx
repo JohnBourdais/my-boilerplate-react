@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import './Menu.css';
 
@@ -8,10 +8,9 @@ class Menu extends Component {
     return (
       <div>
         <nav className="menu">
-        <legend>Menu de navigation</legend>
         <ul>
           <li>
-            <Link to="/accueil">Accueil</Link>
+            <Link to="/">Accueil</Link>
           </li>
           <li>
             <Link to="/connexion">Connexion</Link>
@@ -23,7 +22,7 @@ class Menu extends Component {
           <Link to="/faq">FAQ</Link>
           </li>
         </ul>
-        </nav>        
+        </nav>
       </div>
     );
   }

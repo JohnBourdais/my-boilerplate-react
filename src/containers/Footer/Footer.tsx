@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './Footer.css';
 
@@ -6,16 +7,21 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <footer className="footer">
+        <footer className="footer">        
           <ul>
-            <li>Test</li>
-          </ul>
-          <ul>
-            <li>Test</li>
-          </ul>
-          <ul>
-            <li>Test</li>
-          </ul>
+            <li>
+              <Link to="/">Accueil</Link>
+            </li>
+            <li>
+              <Link to="/connexion">Connexion</Link>
+            </li>
+            <li>
+            <Link to="/mentions-legales">Mentions Légales</Link>
+            </li>
+            <li>
+            <Link to="/faq">FAQ</Link>
+            </li>
+          </ul>        
         </footer>
       </div>
     );

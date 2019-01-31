@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class MentionsLegales extends Component {
   render() {
     return (
-      <h2>Mentions Légales</h2>
+      <h1>Mentions Légales</h1>
     );
   }
 }
