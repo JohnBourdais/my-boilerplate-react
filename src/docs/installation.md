@@ -2,20 +2,20 @@
 
 ## Language
 
-* NPM : <https://www.npmjs.com/>
+- NPM : <https://www.npmjs.com/>
 
 ## Extensions
 
-* Debug :
-  * <https://github.com/Microsoft/vscode-chrome-debug>
-* Linter :
-  * ESLint : <https://github.com/Microsoft/vscode-eslint>
-  * Prettier : <https://github.com/prettier/prettier-vscode>
-* Language :
-  * React : <https://github.com/dsznajder/vscode-es7-javascript-react-snippets>
-* Utilitaires :
-  * Markdown : <https://github.com/yzhang-gh/vscode-markdown>
-  * TODO Highlight : <https://github.com/wayou/vscode-todo-highlight>
+- Debug :
+  - <https://github.com/Microsoft/vscode-chrome-debug>
+- Linter :
+  - ESLint : <https://github.com/Microsoft/vscode-eslint>
+  - Prettier : <https://github.com/prettier/prettier-vscode>
+- Language :
+  - React : <https://github.com/dsznajder/vscode-es7-javascript-react-snippets>
+- Utilitaires :
+  - Markdown : <https://github.com/yzhang-gh/vscode-markdown>
+  - TODO Highlight : <https://github.com/wayou/vscode-todo-highlight>
 
 ## Installation
 
@@ -80,13 +80,16 @@ yarn add @types/react-router
 yarn add @types/react-router-dom
 ```
 
-## Pettier
+## Linter
 
-```yarn
-yarn add prettier --dev --exact
-```
+- [ESLint](/src/docs/eslint.md)
+- [Prettier](/src/docs/prettier.md)
 
----------
+## Storybook
+
+- [Storybook](/src/docs/storybook.md)
+
+---
 
 Projet crée à partir de l'image suivante : [Create React App](https://github.com/facebook/create-react-app).
 

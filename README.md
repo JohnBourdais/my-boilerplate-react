@@ -1,11 +1,11 @@
 # Sommaire
 
-* [Installation du poste](/src/docs/installation)
-* [Bonnes pratiques](/src/docs/bonnes-pratiques)
-* [ESLint](/src/docs/eslint)
-* [Babel](/src/docs/babel)
-* [Webpack](/src/docs/webpack)
-* [TODOList](/src/docs/TODO)
+- [Installation du poste](/src/docs/installation.md)
+- [Bonnes pratiques](/src/docs/bonnes-pratiques.md)
+- [ESLint](/src/docs/eslint.md)
+- [Babel](/src/docs/babel.md)
+- [Webpack](/src/docs/webpack.md)
+- [TODOList](/src/docs/TODO.md)
 
 ## Introduction
 
