@@ -16,9 +16,6 @@ class Menu extends Component {
               <Link to="/compte/creation">Création de compte</Link>
             </li>
             <li>
-              <Link to="/compte/modification">Modification du compte</Link>
-            </li>
-            <li>
               <Link to="/connexion">Connexion</Link>
             </li>
             <li>

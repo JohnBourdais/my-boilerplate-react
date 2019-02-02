@@ -16,13 +16,14 @@ class AppRouter extends Component {
         <Switch>
           <Route path="/" exact component={Accueil} />
           <Route path="/compte" component={Compte} />
-          <Route path="/connexion/" component={Connexion} />
+          <Route path="/connexion/" exact component={Connexion} />
           <Route
             path="/protection-des-donnees-personnels/"
+            exact
             component={Protection}
           />
-          <Route path="/mentions-legales/" component={MentionsLegales} />
-          <Route path="/faq/" component={Faq} />
+          <Route path="/mentions-legales/" exact component={MentionsLegales} />
+          <Route path="/faq/" exact component={Faq} />
           <Route component={PageIntrouvable} />
         </Switch>
       </div>

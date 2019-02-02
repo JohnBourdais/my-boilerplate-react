@@ -1,27 +1,24 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-import './Footer.css';
+import "./Footer.css";
 
 class Footer extends Component {
   render() {
     return (
       <div>
-        <footer className="footer">        
+        <footer className="footer">
           <ul>
             <li>
               <Link to="/">Accueil</Link>
             </li>
             <li>
-              <Link to="/connexion">Connexion</Link>
+              <Link to="/mentions-legales">Mentions Légales</Link>
             </li>
             <li>
-            <Link to="/mentions-legales">Mentions Légales</Link>
+              <Link to="/faq">FAQ</Link>
             </li>
-            <li>
-            <Link to="/faq">FAQ</Link>
-            </li>
-          </ul>        
+          </ul>
         </footer>
       </div>
     );

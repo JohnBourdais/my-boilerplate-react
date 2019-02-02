@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 body {
@@ -21,13 +21,14 @@ body {
 }
 
 .menu {
+  width: 18rem;
   background: cornflowerblue;
 }
 
 .menu li {
   list-style: none;
 }
-.menu ul {  
+.menu ul {
   padding: 1rem;
   margin: 0;
 }
@@ -47,14 +48,17 @@ footer {
 
 footer ul {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 }
 
 footer li {
-  padding: 0.30rem;
+  padding: 0.3rem;
   list-style: none;
 }
 
-header, footer, article, nav {
+header,
+footer,
+article,
+nav {
   padding: 1em;
 }
