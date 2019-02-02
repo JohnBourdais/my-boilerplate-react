@@ -1,21 +1,21 @@
-import React, { Component } from "react";
-import { Route, Switch } from "react-router-dom";
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-import Accueil from "../../containers/Accueil";
-import MentionsLegales from "../../containers/MentionsLegales";
-import Faq from "../../containers/Faq";
-import Connexion from "../../containers/Connexion";
-import Protection from "../Protection";
-import Compte from "../Compte";
-import PageIntrouvable from "../PageIntrouvable";
-import Configuration from "../Configuration";
+import Home from '../Home';
+import MentionsLegales from '../../containers/MentionsLegales';
+import Faq from '../../containers/Faq';
+import Connexion from '../../containers/Connexion';
+import Protection from '../Protection';
+import Compte from '../Compte';
+import PageIntrouvable from '../PageIntrouvable';
+import Configuration from '../Configuration';
 
 class AppRouter extends Component {
   render() {
     return (
       <div className="content--main">
         <Switch>
-          <Route path="/" exact component={Accueil} />
+          <Route path="/" exact component={Home} />
           <Route path="/compte" component={Compte} />
           <Route path="/connexion/" exact component={Connexion} />
           <Route
