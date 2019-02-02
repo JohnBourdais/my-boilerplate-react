@@ -8,7 +8,7 @@ interface State {
   readonly titre: string;
 }
 
-class Titre extends React.Component<Props, State> {
+class Titre extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {

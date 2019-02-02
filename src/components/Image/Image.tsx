@@ -10,7 +10,7 @@ interface State {
   alt: string;
 }
 
-class Image extends React.Component<Props, State> {
+class Image extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {
