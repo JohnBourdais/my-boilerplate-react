@@ -6,7 +6,7 @@
     "noImplicitAny": false,
     "preserveConstEnums": true,
     "typeRoots": ["node_modules/@types"],
-    "jsx": "react",
+    "jsx": "preserve",
     "lib": ["dom", "dom.iterable", "esnext", "es5", "es6", "es7", "es2017"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -17,7 +17,7 @@
     "forceConsistentCasingInFileNames": false,
     "types": ["jest", "node"],
     "moduleResolution": "node",
-    "noEmitOnError": true,
+    "noEmitOnError": false,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -26,7 +26,10 @@
     "strictFunctionTypes": false,
     "pretty": true,
     "removeComments": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
   "awesomeTypescriptLoaderOptions": {
     "errorsAsWarnings": true

@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import App from "./App/App";
-import AppRouter from "./AppRouter/AppRouter";
-import Header from "./Header/Header";
-import Menu from "./Menu/Menu";
-import Footer from "./Footer/Footer";
+import AppRouter from './AppRouter/AppRouter';
+import Header from './Header/Header';
+import Menu from './Menu/Menu';
+import Footer from './Footer/Footer';
 
 class Layout extends Component {
   render() {

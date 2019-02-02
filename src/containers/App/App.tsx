@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import logo from '../../ressources/images/logo.svg';
-import './App.css';
+import { Route, Switch } from 'react-router-dom';
 
 import Home from '../Home';
-import MentionsLegales from '../../containers/MentionsLegales';
 import Faq from '../../containers/Faq';
 import Connexion from '../../containers/Connexion';
 
