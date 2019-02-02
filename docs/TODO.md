@@ -13,10 +13,12 @@
   ```
 
 - React-router :
-  - http://www.babonaux.com/2018/02/27/cestfacile-react-router-v4-layout/
-  - https://apprendre-le-js.com/react-pratique-utiliser-layouts-react-router-4/
+  - <http://www.babonaux.com/2018/02/27/cestfacile-react-router-v4-layout/>
+  - <https://apprendre-le-js.com/react-pratique-utiliser-layouts-react-router-4/>
 - Prettier + config VSCode
 - ESLint
 - Stylehint
 - Babel config si besoin
 - Webpack config si besoin
+- Mise en place de variable d'envirronnement
+- Build du projet et start du build

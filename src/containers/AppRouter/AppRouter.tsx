@@ -8,6 +8,7 @@ import Connexion from "../../containers/Connexion";
 import Protection from "../Protection";
 import Compte from "../Compte";
 import PageIntrouvable from "../PageIntrouvable";
+import Configuration from "../Configuration";
 
 class AppRouter extends Component {
   render() {
@@ -24,6 +25,7 @@ class AppRouter extends Component {
           />
           <Route path="/mentions-legales/" exact component={MentionsLegales} />
           <Route path="/faq/" exact component={Faq} />
+          <Route path="/configuration/" exact component={Configuration} />
           <Route component={PageIntrouvable} />
         </Switch>
       </div>

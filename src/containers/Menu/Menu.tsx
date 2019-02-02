@@ -29,6 +29,9 @@ class Menu extends Component {
             <li>
               <Link to="/faq">FAQ</Link>
             </li>
+            <li>
+              <Link to="/configuration">Configuration</Link>
+            </li>
           </ul>
         </nav>
       </div>
