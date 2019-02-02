@@ -3,6 +3,9 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "workbench.colorTheme": "Monokai",
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "prettier.singleQuote": true,
 
   // Configuration TODO Highlight :
   // https://github.com/wayou/vscode-todo-highlight
