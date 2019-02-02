@@ -23,7 +23,7 @@ class Image extends Component<Props, State> {
     const { source, alt } = this.state;
     return (
       <div>
-        <img src={source} alt={alt} />
+        <img src={source} alt={alt} className="accueil--img" />
       </div>
     );
   }
