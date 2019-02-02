@@ -1,11 +1,15 @@
 # Sommaire
 
-- [Installation du poste](/src/docs/installation.md)
-- [Bonnes pratiques](/src/docs/bonnes-pratiques.md)
-- [ESLint](/src/docs/eslint.md)
-- [Babel](/src/docs/babel.md)
-- [Webpack](/src/docs/webpack.md)
-- [TODOList](/src/docs/TODO.md)
+- [Installation du poste](/docs/installation.md)
+- [Bonnes pratiques](/docs/bonnes-pratiques.md)
+- [Babel](/docs/babel.md)
+- [Debug](/docs/debug.md)
+- [ESLint](/docs/eslint.md)
+- [Prettier](/docs/prettier.md)
+- [Semantic UI](/docs/semantic-ui.md)
+- [Storybook](/docs/storybook.md)
+- [Webpack](/docs/webpack.md)
+- [TODOList](/docs/TODO.md)
 
 ## Introduction
 
