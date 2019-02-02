@@ -4,7 +4,9 @@ class PageIntrouvable extends Component {
   render() {
     return (
       <div>
-        <h1>Désolé mais cette page à été perdu dans l'espace</h1>
+        <h1 className="titre-principal">
+          Désolé mais cette page à été perdu dans l'espace
+        </h1>
       </div>
     );
   }

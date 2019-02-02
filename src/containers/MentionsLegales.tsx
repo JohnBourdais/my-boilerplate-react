@@ -5,7 +5,7 @@ class MentionsLegales extends Component {
   render() {
     return (
       <div>
-        <h1>Mentions Légales</h1>
+        <h1 className="titre-principal">Mentions Légales</h1>
         <ul>
           <li>
             <Link to="/protection-des-donnees-personnels">

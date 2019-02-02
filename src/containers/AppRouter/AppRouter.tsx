@@ -13,7 +13,7 @@ import Configuration from "../Configuration";
 class AppRouter extends Component {
   render() {
     return (
-      <div>
+      <div className="content--main">
         <Switch>
           <Route path="/" exact component={Accueil} />
           <Route path="/compte" component={Compte} />

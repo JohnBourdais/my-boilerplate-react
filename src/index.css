@@ -20,8 +20,14 @@ body {
   background: darkgray;
 }
 
+.content--main {
+  min-height: 20rem;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
 .menu {
   width: 18rem;
+  height: 100%;
   background: cornflowerblue;
 }
 
@@ -31,6 +37,36 @@ body {
 .menu ul {
   padding: 1rem;
   margin: 0;
+}
+
+.titre-app {
+  color: black;
+  font-size: bold;
+}
+
+.titre-principal {
+  color: coral;
+  padding: 0.25rem 0.25rem 0.25rem 0;
+}
+
+.configuration {
+  padding: 1rem;
+  background-color: antiquewhite;
+}
+
+.configuration li {
+  list-style: none;
+}
+
+.configuration--nom {
+  padding: 1rem;
+  color: black;
+}
+
+.configuration--valeur {
+  padding: 1rem;
+  color: brown;
+  font-weight: bold;
 }
 
 header {
@@ -43,7 +79,6 @@ footer {
   display: flex;
   justify-content: center;
   background: crimson;
-  height: 20vh;
 }
 
 footer ul {

@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Protection extends Component {
   render() {
     return (
       <div>
-        <h1>Protection des donneés personnels</h1>
+        <h1 className="titre-principal">Protection des donneés personnels</h1>
         <p>
           Nos partenaires et nous-mêmes utilisons différentes technologies,
           telles que les cookies, pour personnaliser les contenus et les
