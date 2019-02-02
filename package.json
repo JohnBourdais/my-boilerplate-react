@@ -48,7 +48,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx}": [
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "pretty-quick --staged",
       "eslint src/ --fix",
       "git add"
